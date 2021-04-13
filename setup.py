@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="fdutils",
-    version="0.0.2",
+    version="0.0.3",
     author="teleping",
     author_email="teleping@163.com",
     description="financial data sdk",
@@ -23,4 +23,5 @@ setuptools.setup(
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.6",
+    install_requires=["pandas", "logging"],
 )
