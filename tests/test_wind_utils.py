@@ -1,7 +1,7 @@
 #  -*- coding: utf-8 -*-
 # @author: zhangping
 
-from src.fdutils import WindUtil
+from src.fdutils.wind_utils import WindUtil
 
 
 def test_wind_utils():

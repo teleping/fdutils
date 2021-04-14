@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="fdutils",
-    version="0.0.5",
+    version="0.0.7",
     author="teleping",
     author_email="teleping@163.com",
     description="financial data sdk",
